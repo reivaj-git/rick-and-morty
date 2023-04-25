@@ -33,7 +33,7 @@ const ResidentsList = ({ location }) => {
         }
       </section>
       
-      <ul className='flex gap-4 justify-center py-4 '>
+      <ul className='flex text-white gap-4 justify-center py-4 '>
         {arrayPages.map(page => <li onClick={() => setCurrentPage(page)} className={`p-3 rounded-md cursor-pointer ${page === currentPage && " bg-green-800 text-white font-bold" }`} key = { page } >{page}</li>)}
       </ul>
     </>

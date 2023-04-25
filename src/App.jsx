@@ -60,12 +60,12 @@ function App() {
             </button>
           </div>
 
-          <h2 className=' text-center text-white'>Welcome to the crazy universe!</h2>
+          <h2 className=' text-center text-greenBold py-4 text-2xl '>Welcome to the crazy universe!</h2>
         </form>
 
       </header>
 
-      <div className='bg-[url(/images/bg-body.png)] w-full h-auto bg-cover bg-no-repeat'>
+      <div className='bg-[url(/images/bg-body.png)] w-full h-full bg-cover bg-no-repeat'>
         <Location location={location} />
         <ResidentsList location={location} />
       </div>
