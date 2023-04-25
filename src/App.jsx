@@ -41,7 +41,7 @@ function App() {
 
         <div className="flex flex-col items-center justify-center absolute w-full h-full">
           <img src="/images/Ellipse.png" alt="Ellipse" className="h-[600px] w-[600px] object-contain absolute -top-[200px]" />
-          <img src="/images/portal.png" alt="Portal" className="h-[320px] w-[320px] object-contain absolute -top-16" />
+          <img src="/images/portal.png" alt="Portal" className="h-[320px] w-[320px] object-contain absolute -top-16 animate-pulse " />
           <img src="/images/logo.png" alt="Logo" className="h-[240px] w-[240px] object-contain absolute -top-10" />
         </div>
 
