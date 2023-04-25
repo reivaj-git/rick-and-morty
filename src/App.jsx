@@ -65,11 +65,17 @@ function App() {
 
       </header>
 
-      <div className='bg-[url(/images/bg-body.png)] w-full h-full bg-cover bg-no-repeat'>
-        <Location location={location} />
-        <ResidentsList location={location} />
-      </div>
-      
+
+    
+          <div className='bg-[url(/images/bg-body.png)] w-full min-h-screen bg-cover bg-no-repeat'>
+            <div>
+            <Location location={location} />
+            <ResidentsList location={location} />
+
+            </div>
+          </div>
+    
+
     </div>
   )
 }
