@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ResidentCard from './residentCard'
+import ResidentCard from './ResidentCard'
 import { useEffect } from 'react'
 
 const ResidentsList = ({ location }) => {
